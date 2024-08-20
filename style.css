@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #aa37b0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #10a22d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #555;
+    color: #38bfc4;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 100px;
+}
+
+.hero-image img {
+    width: 1%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.about {
+    background: #50caf6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    max-width: 700px;
+}
+
+.about-photo img {
+    width: 30%;
+    height: 10%;
+    max-width: 200px;
+    border-radius: 300%;
+    margin-top: 10px;
+}
+
+.projects {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    background: #bc4040;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2.5px solid #3192e7;
+    border-radius: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background: #a334a9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
